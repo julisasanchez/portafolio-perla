@@ -1,0 +1,92 @@
+/* TARJETA */
+
+.container-tarjeta{
+    background-color: #eacaff;
+    min-height: 600px;
+  }
+  
+  .card-container {
+    display: flex;
+    width: 50%;
+    height: auto;
+    background-color:  rgb(255, 214, 221);
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px rgb(0, 0, 0, .2);
+  }
+  .header-tarjeta {
+    border-right: 1px solid #ddd;
+  }
+  
+  .descripcion-card{
+    background: #fbfbfb;
+  }
+  
+  .header-tarjeta, .descripcion-card{
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  .header-tarjeta a{
+    position: relative;
+    display: block;
+  }
+  
+  .header-tarjeta img{
+  
+    box-shadow: 0 0 0 8px rgb(0, 0, 0, .06);
+    margin: 20 px 30px;
+    transition: .25;
+  }
+  
+  .header-tarjeta a:hover img{
+    box-shadow: 0 0 12px rgb(0, 0, 0, .1);
+  }
+  
+  .header-tarjeta h3{
+    color: rgb(39, 39, 39);
+    padding-top: 10px;
+  }
+  
+  .header-tarjeta h4{
+    margin-bottom: 20px;
+  }
+  
+  .descripcion-card{
+    position: relative;
+  }
+  
+  .descripcion-card p{
+    margin: 20px 30px;
+  }
+  
+  .descripcion-card .social-card{
+    margin-top: 0 25px;
+  }
+  
+  .descripcion-card .social-card a{
+    display: inline-block;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  @media (max-width:640px){
+    .card-container{
+        display: block;
+        border: 0;
+    }
+  
+    .header-tarjeta{
+        padding: 20px 20px 5px 20px;
+        border: none;
+    }
+  
+    .descripcion-card{
+        padding: 5px 20px 20px 20px;
+        background: transparent;
+    }
+  .header-tarjeta h4{
+    margin: 0;
+  }
+  
+  }
+  
